@@ -142,16 +142,24 @@ footer {
     justify-content:space-between;
   }
 
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+#div-1, #div-2, #div3 {
+    height: auto;
+}
 .flex-items {
   color: #fff;
   line-height: 1.3em;
   font-size: .9em;
   background-color: #5596d3;
   width: 32%;
-  height: auto;
+  /* height: auto; */
   display: flex;
   justify-content: center;
-  align-items: initial;
+  align-items: flex-start;
 }
 
 #div-2 {
