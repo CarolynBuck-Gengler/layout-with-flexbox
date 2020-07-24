@@ -96,7 +96,7 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: #5596d3;
   height: 100%;
   width: 100%;
 }
@@ -111,43 +111,60 @@ body {
 
 header,
 footer {
-  background-color: #222;
+  background-color: #3d6b96;
   height: 80px;
   width: 100%;
+  font-size: 2.25em;
 }
 
 main {
   background-color: #ccc;
-  height: 250px;
+  height: auto;
   width: 100%;
+  color: #3d6b96;
+}
+.flex-container main p {
+    padding: 0 15px;
 }
 
 header,
-footer,
-main {
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .flex-container {
+    font-weight: 400;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-flow: row wrap;
     justify-content:space-between;
-}
+  }
 
 .flex-items {
   color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  width: 30%;
-  height: 200px;
+  line-height: 1.3em;
+  font-size: .9em;
+  background-color: #5596d3;
+  width: 32%;
+  height: auto;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: initial;
+}
+
+#div-2 {
+    border-left: solid #547594 1px;
+    border-right: solid #547594 1px;
+    padding: 0 10px;
+}
+
+.flex-container p {
+    padding: 10px;
+}
+.movie-name {
+    font-style: italic;
 }
 
 /* ==========================================================================
